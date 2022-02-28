@@ -1,0 +1,43 @@
+problem_1 = data["problem 1"]
+
+un_hex_pt=bytes.fromhex(problem_1["old_pt"]) 
+un_hex_ct=problem_1["old_ct"]
+hex_newct= problem_1["new_trades"] 
+op_1=problem_1["op_1"
+co_1=problem_1["co_1"]
+co_2=problem_1["co_2"]
+op_2= problem2["op_2"]
+co_1_tinker= []
+un_hex_newct=[]
+
+old_trades = list[more_itertools.chunked(un_hex_pt, 16))
+
+old_cipher= list[more_itertools.chunked(un_hex_pt, 16))
+
+old_pl_ct ={}
+index=0
+
+for trade in old_trades:
+tr= old_cipher[index]
+old_pl_ct[bytes(trade)]=tr
+index+=1
+
+for x in old trades:
+y=bytes(x)
+if bytes(co_1, 'utf-8') in y and bytes (op_1 'utf-8') in y:
+  co_1_tinker.append(x)
+if bytes(co_2, 'utf-8') in y and bytes (op_2, 'utf-8) in y:
+bad_trade=x
+
+sorted_list =sorted(co_1_tinker, key=lambda i:i[9:])
+
+worst_trade = old_pl_ct [bytes(bad_trade)
+trade_to_replace = sorted list [-1]
+best_trade =old_pl_ct[bytes(trade_to_replace)]
+index_1=0
+for n_trade in hex_newct:
+my_list =list(more_itertools.chunked(n_trade, 16))
+replaced_list ="".join(itertools.chain(*replaced_list))
+un_hex_newct.append(temp_list)
+
+solutions["problem 1" = un_hex_newct
