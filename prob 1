@@ -40,4 +40,4 @@ my_list =list(more_itertools.chunked(n_trade, 16))
 replaced_list ="".join(itertools.chain(*replaced_list))
 un_hex_newct.append(temp_list)
 
-solutions["problem 1" = un_hex_newct
+solutions["problem 1"] = un_hex_newct
